@@ -1,5 +1,5 @@
 let tablinks = document.getElementsByClassName("tab-links");
-let tabcontent = document.getElementsByClassName("tab-content");
+let tabcontents = document.getElementsByClassName("tab-contents");
 
 function opentab(tabname){
     for(tablink of tablinks){
