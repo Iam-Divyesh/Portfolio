@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Divyesh Sarvaiya</title>
+</head>
+<body>
+
+   <div id="header">
+
+        <div class="container">
+
+            <nav>
+
+                <img src="./images/logo.png" alt="">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>I'm <span>Divyesh</span> <br> From Surat</h1>
+            </div>
+
+        </div>
+        
+   </div>
+
+   <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-1">
+                    <img src="./assets/MY-img.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h2 class="a-heading">About Me</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sequi quae sapiente possimus, repudiandae veritatis recusandae cumque eveniet rem asperiores perspiciatis praesentium ex autem quod explicabo eaque consectetur voluptate facere voluptatem. Ducimus magnam, quas quidem doloremque deserunt nulla tenetur ea.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Designer</span><br>Provide Futurestic Designes </li>
+                            <li><span>UI/UX</span><br> Designe Responsive Web UI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2023 Current</span><br>Web-Design Training at Delta from ApnaCollege </li>
+                            <li><span>2022</span><br>UI/UX DOT-Code Institute</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2022</span><br>BCA Graduate From ACCS </li>
+                            <li><span>2021</span><br>BYOL Advanced Course</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+   </div>
+    
+   <script src="./main.js"></script>
+</body>
+</html>
